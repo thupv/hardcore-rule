@@ -9,6 +9,7 @@
  *
  */
 
+```javascript
 var getIntersectionNode = function(headA, headB) {
   var diff = 0
   var nodeA = headA, nodeB = headB;
@@ -44,7 +45,7 @@ var getIntersectionNode = function(headA, headB) {
   return null;
 
 };
-
+```
 
 /*
  *
@@ -57,6 +58,7 @@ var getIntersectionNode = function(headA, headB) {
  *
  */
 
+```javascript
 function Stack(){
   this.data = [];
   this.push = function(str){
@@ -86,3 +88,4 @@ var simplifyPath = function(path) {
 
   return str.length > 1 ? str.slice(0, -1): str;
 };
+```
